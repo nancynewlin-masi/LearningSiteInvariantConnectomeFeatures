@@ -6,8 +6,8 @@ import torch.optim as optim
 import torchvision
 import torchsummary
 from torch.utils.data import Dataset, DataLoader
-from Dataloader_multimeasure import TrainingDataset
-from Dataloader_multimeasure_test import TestDataset
+from Dataloader_train.py import TrainingDataset
+from Dataloader_test import TestDataset
 
 
 from torch.utils.data import Dataset, DataLoader,TensorDataset,random_split,SubsetRandomSampler, ConcatDataset
