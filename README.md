@@ -3,4 +3,4 @@ This is the code base for my project on learning site-minimal bio-maximal repres
 
 We include two ways of training: "Colearning" and "Individually learned". We compare each method and conclude that co-learning is more effective. 
 
-!(idea.png)
+![](idea.png)
