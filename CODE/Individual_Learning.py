@@ -6,7 +6,7 @@ import torch.optim as optim
 import torchvision
 import torchsummary
 from torch.utils.data import Dataset, DataLoader
-from Dataloader_multimeasure import TrainingDataset
+from Dataloader import TrainingDataset
 from Dataloader_test import TestDataset
 from torch.utils.data import Dataset, DataLoader,TensorDataset,random_split,SubsetRandomSampler, ConcatDataset
 from sklearn.model_selection import KFold
