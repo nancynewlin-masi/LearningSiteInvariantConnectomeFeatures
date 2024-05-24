@@ -7,7 +7,7 @@ import torchvision
 import torchsummary
 from torch.utils.data import Dataset, DataLoader
 from Dataloader_multimeasure import TrainingDataset
-from Dataloader_multimeasure_test import TestDataset
+from Dataloader_test import TestDataset
 from torch.utils.data import Dataset, DataLoader,TensorDataset,random_split,SubsetRandomSampler, ConcatDataset
 from sklearn.model_selection import KFold
 from Architecture_multimeasure import AE, Conditional_VAE
