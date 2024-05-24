@@ -6,7 +6,7 @@ import torch.optim as optim
 import torchvision
 import torchsummary
 from torch.utils.data import Dataset, DataLoader
-from Dataloader_train.py import TrainingDataset
+from Dataloader_train import TrainingDataset
 from Dataloader_test import TestDataset
 
 
